@@ -28,15 +28,21 @@
               accept="image/*"
               required
             />
-            <img
-              src="data:<%= user.profile_picture.mimeType %>;base64,<%= user.profile_picture.data %>"
-              width="100"
-            />
+    
           </div>
-
+<div class="loadImages">
+          <% if (user && user.profile_picture && user.profile_picture.path) { %>
+  <img src="<%= user.profile_picture.path %>" width="100" />
+<% } %>
+</div>
           <div class="form-group">
             <label>Name</label>
             <input name="name" placeholder="Enter your name" required />
+          </div>
+            
+          <div class="form-group">
+            <label>Username</label>
+            <input name="username" placeholder="Enter your username" required />
           </div>
 
           <div class="form-group">

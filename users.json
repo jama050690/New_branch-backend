@@ -9,10 +9,39 @@
     "age": 22,
     "gender": "male"
   },
-
   "javohir": {
     "password": "a2092f63a2f91825e2c72496b104e027c2a5b0f0",
     "age": 20,
     "gender": "male"
+  },
+  "jbm050690@gmail.com": {
+    "name": "Jamshiddin Babajonov",
+    "age": "35",
+    "gender": "male",
+    "password": "a7207fe1fbb37ee23f86e5b2f149f57c06b61201",
+    "profile_picture": {
+      "path": "/uploads/1768741710184.png",
+      "mimeType": "image/png"
+    }
+  },
+  "js1116@gmail.com": {
+    "name": "Jumanazar Saidov",
+    "age": "35",
+    "gender": "female",
+    "password": "ffb653de049d744303d122e6b9e0827c996dbe27",
+    "profile_picture": {
+      "path": "/uploads/1768742008126.jpg",
+      "mimeType": "image/jpeg"
+    }
+  },
+  "Tolmas O'rinov": {
+    "username": "asadfmdasmfml",
+    "age": "18",
+    "gender": "male",
+    "password": "bbfeba36fb7564be332cf781cbc449eb4690eef7",
+    "profile_picture": {
+      "path": "/uploads/1768742650063.jpg",
+      "mimeType": "image/jpeg"
+    }
   }
 }
