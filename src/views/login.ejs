@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/public/css/styles.css" />
+    <title>Login</title>
+  </head>
+
+  <body>
+    <div class="page">
+      <div class="auth-card">
+        <form class="auth-form" action="/login" method="POST">
+          <h2>Login</h2>
+
+          <!-- MANA SHU YERGA IF -->
+      <% if (typeof user !== "undefined" && user && user.profile_picture && user.profile_picture.data) { %>
+  <img
+    src="data:<%= user.profile_picture.mimeType %>;base64,<%= user.profile_picture.data %>"
+    width="100"
+  />
+<% } %>
+          <div class="form-group">
+            <label>Email</label>
+            <input name="email" type="email" required />
+          </div>
+
+          <div class="form-group">
+            <label>Password</label>
+            <input name="password" type="password" required />
+          </div>
+
+          <button type="submit">Login</button>
+
+          <p class="switch-text">
+            Don't have an account?
+            <a href="/signup">Register</a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
