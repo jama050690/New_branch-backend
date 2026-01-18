@@ -1,0 +1,18 @@
+{
+  "tolmas": {
+    "password": "a9993e364706816aba3e25717850c26c9cd0d89d",
+    "age": 1,
+    "gender": "male"
+  },
+  "javlon": {
+    "password": "40bd001563085fc35165329ea1ff5c5ecbdbbeef",
+    "age": 22,
+    "gender": "male"
+  },
+
+  "javohir": {
+    "password": "a2092f63a2f91825e2c72496b104e027c2a5b0f0",
+    "age": 20,
+    "gender": "male"
+  }
+}
